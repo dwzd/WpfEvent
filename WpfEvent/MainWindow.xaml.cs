@@ -34,6 +34,12 @@ namespace WpfEvent
         {
 
             TimeTextBox.Text = DateTime.Now.ToString();
+            GreetingText.Text = DateTime.Now.Hour < 12 ? "Good Morning!" : "Good Afternoon!";
+        }
+
+        private void TimeTextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }

@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid Margin="0,0,-129,-21">
-        <TextBox x:Name="TimeTextBox" HorizontalAlignment="Left" Height="162" Margin="10,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="498" FontSize="48"/>
+        <TextBox x:Name="TimeTextBox" HorizontalAlignment="Left" Height="111" Margin="10,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="498" FontSize="44" TextChanged="TimeTextBox_TextChanged"/>
+        <TextBox x:Name="GreetingText" HorizontalAlignment="Left" Height="120" Margin="10,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="498" RenderTransformOrigin="0.462,-0.848" FontSize="48"/>
 
     </Grid>
 </Window>
